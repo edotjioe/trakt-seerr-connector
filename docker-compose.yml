@@ -1,0 +1,9 @@
+services:
+  trakt-seerr-connector:
+    image: trakt-seerr-connector:latest
+    container_name: trakt-seerr-connector
+    restart: unless-stopped
+    volumes:
+      - ./config:/config
+    env_file:
+      - .env
