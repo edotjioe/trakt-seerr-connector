@@ -2,8 +2,6 @@
 
 A GraalVM native CLI that syncs your **Trakt** watchlist and **MyAnimeList** anime list to [Seerr](https://github.com/sct/overseerr) (Overseerr / Jellyseerr) as media requests.
 
-Java port of [trakt-seerr-sync](https://github.com/example/trakt-seerr-sync), compiled to a self-contained native binary — no JVM required at runtime.
-
 ---
 
 ## Quick start
